@@ -34,20 +34,27 @@ Go inside the backend folder and create a .env file locally.
 Paste the below variables in it. Make sure you have the API keys.
 
 GET STREAM API KEY HERE -> https://getstream.io/
+
 CREATE MONGO DB CLUSTER -> https://www.mongodb.com/products/platform/atlas-database
 
 Backend ENV File
 
 ```
 PORT=5001
+
 MONGO_URI=your_mongo_uri
+
 STEAM_API_KEY=your_steam_api_key
+
 STEAM_API_SECRET=your_steam_api_secret
+
 JWT_SECRET_KEY=any random characters
+
 NODE_ENV=development
 ```
 
 Then Go inside this front end folder.
+
 Create another .env file and paste the Stream API Key there as well.
 
 ### Frontend (`/frontend`)
@@ -60,16 +67,21 @@ VITE_STREAM_API_KEY=your_stream_api_key
 
 ## 🔧 Run the Backend
 
-```bash
+
 cd backend
+
 npm install
+
 npm run dev
-```
+
 
 ## 💻 Run the Frontend
 
-```bash
+
 cd frontend
+
 npm install
+
 npm run dev
-```
+
+
